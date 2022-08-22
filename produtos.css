@@ -2,16 +2,17 @@
     margin: 0;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
-
 }
 
-a:hover {
+/* nav a {} */
+
+nav a:hover {
     color: #ffffff;
 }
 
@@ -28,10 +29,60 @@ header {
 
 nav li {
     display: inline;
+    margin-right: 2rem;
+}
+
+nav ul {
+    justify-content: space-between;
 }
 
 nav {
-    justify-content: space-around;
-    min-width: 20rem;
+
     font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+
+    min-height: 24rem;
+
+}
+
+main div {
+    margin: 5rem 0;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+main ul li {
+    border: 2px solid;
+    border-radius: 4px;
+    width: min-content;
+    text-align: center;
+}
+
+main ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-color: rgb(151, 114, 10);
+}
+
+main ul li h2 {
+    text-align: center;
+}
+
+main ul li div {
+    margin: 1.5rem 0.25rem;
+}
+
+.moeda {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 1.5rem;
+}
+
+.descricao {
+    font-size: 18px;
 }
